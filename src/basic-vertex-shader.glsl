@@ -1,6 +1,8 @@
 attribute vec3 a_position;
-attribute vec4 a_color;
-attribute vec4 a_normal;
+attribute vec3 a_color;
+attribute vec3 b_color;
+attribute vec3 a_normal;
+attribute vec3 varying;
 // TODO
 uniform mat4 M;
 

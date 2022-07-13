@@ -128,7 +128,7 @@ export default class RasterSphere {
     );
     // TODO bind colour buffer
     this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.colorBuffer);
-    const colorLocation = shader.getAttributeLocation("a_color");
+    const colorLocation = shader.getAttributeLocation("b_color");
     this.gl.enableVertexAttribArray(colorLocation);
     this.gl.vertexAttribPointer(colorLocation, 3, this.gl.FLOAT, false, 0, 0);
     // TODO bind normal buffer
